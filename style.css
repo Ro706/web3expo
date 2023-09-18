@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;  
+  background-color: rgb(130, 0, 251);
+}
+nav{
+    background-color: rgb(130, 0, 251);
+    color:white;
+    display: flex;
+    justify-content:space-around;
+}
+nav h2{
+    font-size: 50px;
+    font-weight: 600;
+    align-items: center;
+    padding: 10px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: rgb(130, 0, 251)
+}
+nav ul li {
+    padding: 10px;
+    margin: 25px;
+    font-weight: 600;
+    align-items: center;
+}
+nav ul li a{
+    background-color:rgb(130, 0, 251) ;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+main{
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main h2{
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-weight: 700;
+}
+main h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 600;
+}
+main button a{
+    margin-top: 10px;
+    background-color: black;
+    width:150px;
+    height: 50px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+main button {
+    margin-top: 10px;
+    background-color: black;
+    width:150px;
+    height: 50px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main button:hover{
+    box-shadow: 6px 6px 6px 6px rgb(94, 22, 162);
+    transition: 0.5s;
+}
