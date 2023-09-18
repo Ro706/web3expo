@@ -19,7 +19,7 @@ nav h2{
 nav ul{
     display: flex;
     list-style: none;
-    background-color: rgb(130, 0, 251)
+    background-color: rgb(130, 0, 251);
 }
 nav ul li {
     padding: 10px;
@@ -46,12 +46,14 @@ main h2{
     color: rgb(0, 0, 0);
     font-size: 80px;
     font-weight: 700;
+    text-shadow: 2px 3px 2px  rgb(64, 15, 110);
 }
 main h1{
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: 600;
+    text-shadow: 2px 3px 2px  rgb(0, 0, 0);
 }
 main button a{
     margin-top: 10px;

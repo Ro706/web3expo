@@ -104,7 +104,8 @@ nav ul li a{
 
 .card button:hover{
     cursor: pointer;
-    box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.8);
+    transition: 0.5s;
+    box-shadow: 2px 0 16px 0 rgb(0, 0, 0, 0.8);
 }
 @media screen and (max-width: 600px) {
     nav{
