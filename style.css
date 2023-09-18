@@ -83,3 +83,32 @@ main button:hover{
     box-shadow: 6px 6px 6px 6px rgb(94, 22, 162);
     transition: 0.5s;
 }
+@media screen and (max-width: 600px) {
+    nav{
+        background-color: rgb(130, 0, 251);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    nav h2{
+        font-size: 15px;
+        color: white;
+    }
+    
+    nav ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    nav ul li{
+        font-size: 13px;
+        margin: 15px;
+        font-weight: 600;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}
