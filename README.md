@@ -1,5 +1,5 @@
 # web3expo
-https://ro706.github.io/web3expo/ explain about this website
+https://ro706.github.io/web3expo/ <br>
 There are several popular blogging platforms available. Here are some of the best free blogging sites you can use to start your own blog:
 
 1. **Wix**: Wix is a free website and blog builder tool that offers drag-and-drop tools for easy customization. It also provides a collection of free and premium themes and templates for different purposes.
