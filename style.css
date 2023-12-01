@@ -79,9 +79,40 @@ main button {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 main button:hover{
     box-shadow: 6px 6px 6px 6px rgb(94, 22, 162);
     transition: 0.5s;
+}
+
+.about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 2px 3px 2px  rgb(81, 81, 81);
+}
+.contact{
+    margin-top: 50px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 3px 2px  rgb(81, 81, 81);
+}
+p ,ul,li{
+    padding: 10px;
+}
+.masthead{
+    background-image: url(./img/post-bg.jpg);
+    background-size: cover;
 }
 @media screen and (max-width: 600px) {
     nav{
